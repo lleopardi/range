@@ -1,11 +1,11 @@
 import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import FixedFilter from "./page/FixedFilter/FixedFilter";
 import Home from "./page/Home/Home";
 import NormalFilter from "./page/NormalFilter/NormalFilter";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Home />,
