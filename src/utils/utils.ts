@@ -85,7 +85,6 @@ export const getPositionFromLabel = (
  * @returns 
  */
 export const getMoveStrategy = (type: 'min' | 'max' | 'minLabel' | 'maxLabel') => {
-  console.log(type)
   const strategies = {
     min: new MoveMinBulletStrategy(),
     max: new MoveMaxBulletStrategy(),
