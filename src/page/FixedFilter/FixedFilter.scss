@@ -1,0 +1,23 @@
+.range-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.range-fixed {
+    width: 300px;
+}
+
+.code{
+    background: rgb(205, 199, 199);
+    padding: 20px 50px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.filter {
+    margin-top: 20px;
+    font-weight: bold;
+}
